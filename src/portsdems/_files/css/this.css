@@ -1,0 +1,148 @@
+﻿html, body { height: 100%;}
+body {
+margin:0;
+padding:0;
+color: #555;
+font-size: 13px;
+font-family:'Whitney A','Whitney B';
+font-weight:400;
+background-color:#EEE
+}
+
+aside,main,nav,section{display:block}
+
+/* STANDARD */
+a {
+text-decoration: none;
+color: #999;
+}
+a:hover, a.button:hover {
+color: #777;
+text-decoration: underline !important;
+cursor: pointer;
+}
+
+h1,h2{
+font-weight:normal;
+font-family:'Whitney A','Whitney B';
+}
+h2 {
+/*color:#fff;
+background-color:#3c81aa;*/
+padding:5px 10px;
+text-align:center;
+font-size:24px;
+margin:.3em
+}
+
+
+
+
+#c {
+display:flex;
+flex-direction:column;
+width:1200px;
+max-width:100%;
+min-height:100%;
+margin:0 auto;
+background-color:#fff
+}
+#h {
+padding: 10px 0 15px;
+margin: 0;
+font-size:62px;
+letter-spacing:-1pt;
+color: #3c81aa;
+text-align:center
+}
+#social {
+display:flex;
+justify-content:center;
+align-items:center;
+height:50px;
+margin:35px
+}
+#social > * {
+margin:0 10px;
+}
+#n {
+display:flex;
+justify-content:center;
+margin-top:10px
+}
+#n a {
+font-size:32px;
+text-decoration:none;
+padding:.2em .4em;
+text-align:center
+}
+#n a:hover {
+text-decoration:underline;
+}
+#n[data-key='home'] #link-home,
+#n[data-key='get-involved'] #link-get-involved,
+#n[data-key='committee'] #link-committee,
+#n[data-key='elected-officials'] #link-elected-officials {
+color: #666;
+}
+
+#m {
+flex:1;
+}
+
+#content {
+padding:35px 12px;
+font-family: 'Archer SSm A', 'Archer SSm B';
+font-size:16px;
+max-width:1024px;
+width:100%;
+margin:0 auto;
+border-style: solid;
+border-width:1px 0;
+border-color:#ddd
+}
+#content a {color:#3C81AA}
+
+#link-donate {
+background-color:#3c81aa;
+color:#fff;
+margin-left:.4em
+}
+
+hr {
+border: 0;
+width: 100%;
+}
+iframe, img {
+border: 0;
+}
+blockquote {
+margin: 0 5px;
+padding: 25px 45px;
+}
+code {
+font-family: Consolas, monospace;
+font-size: 10px;
+display:inline;
+}
+
+
+.description {font-size:13px;color:#999;line-height:1em;margin:4px 0 2px;text-align:left}
+.hide {display: none;}
+.b{font-weight:bold}
+.ib {display:inline-block;}
+.tac{text-align:center}
+.form {font-family:'Whitney A','Whitney B';}
+
+input[type=text], input[type=password], input[type=email], textarea {border-width:0 0 1px;border-style:solid;border-color:#ccc;width:250px;padding:5px;color:#444;font-family:inherit;font-size:1em}
+input[type=text].narrow,input[type=password].narrow,input[type=email].narrow {width:30%}
+input[type=button],input[type=submit] {height:30px;vertical-align:bottom;margin-left:.2em;background-color:#3C81AA;color:#fff;font-family:inherit;border:0;font-size:1em;cursor:pointer}
+label[for] {vertical-align:top;}
+select {max-width:100%;min-width:33%;border:1px solid #ccc;vertical-align:middle;padding:3px 2px;font-family:inherit}
+select.small {height:24px;max-width:125px;min-width:32px;padding:1px;}
+option {max-width:500px;padding:2px 5px;color:#444;font-size:12px;}
+textarea {border:1px solid #ccc;width:80%;padding:5px;color:#444;height:140px;font-size:13px}
+
+#twitter-widget-0.twitter-timeline {width:100% !important;max-width:700px !important;}
+.twitter-tweet{margin:10px auto !important;}
+.fb_iframe_widget{display:block !important}
