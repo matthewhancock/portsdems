@@ -4,7 +4,7 @@ namespace portsmouth_democrats.Pages {
 	public class Home : Site.Page {
 		
 		public static string OutputPage() {
-			"<div class=\"tac\"><h2>Upcoming Events</h2><h3>Portsmouth Democrats Monthly Gathering</h3><div class=\"b\">Tuesday, January 19, 2016<br />6:30PM<br />Cafe Nostimo<br /><a href=\"http://binged.it/1cFa7EC\" target=\"_blank\">72 Mirona Road</a></div><br />All Democrats are welcome. This is a social gathering with no agenda or speakers, just good food, good conversation, with good people.";
+			return "<div class=\"tac\"><h2>Upcoming Events</h2><h3>Portsmouth Democrats Monthly Gathering</h3><div class=\"b\">Tuesday, January 19, 2016<br />6:30PM<br />Cafe Nostimo<br /><a href=\"http://binged.it/1cFa7EC\" target=\"_blank\">72 Mirona Road</a></div><br />All Democrats are welcome. This is a social gathering with no agenda or speakers, just good food, good conversation, with good people.";
 		}
 
 		public override Func<string> Content {
