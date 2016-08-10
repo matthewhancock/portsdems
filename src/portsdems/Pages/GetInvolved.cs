@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 namespace portsmouth_democrats.Pages {
-	public class GetInvolved : Site.Page {
+	public class GetInvolved : Common.Site.Page {
 
 		public static string OutputPage() {
 			var token = Guid.NewGuid().ToString("N");
@@ -12,13 +12,13 @@ namespace portsmouth_democrats.Pages {
 				"<h2>New Hampshire Democratic Party</h2>The NHDP is the Democratic Party for the state and has <a href=\"http://nhdp.org/get-involved/\" target=\"_blank\">more ways to get involved</a>. They are also on <a href=\"https://facebook.com/NHDems\" target=\"_blank\">Facebook</a> and <a href=\"https://twitter.com/NHDems\" target=\"_blank\">Twitter</a>.</div>";
         }
 
-		public override Func<string> Content {
-			get {
-				return OutputPage;
-			}
-		}
+        public override string Content {
+            get {
+                return OutputPage();
+            }
+        }
 
-		public override string Description {
+        public override string Description {
 			get {
 				return "How to get involved and help elect Democrats in Portsmouth, New Hampshire.";
 			}

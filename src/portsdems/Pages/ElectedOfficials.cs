@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace portsmouth_democrats.Pages {
-	public class ElectedOfficials : Site.Page {
+	public class ElectedOfficials : Common.Site.Page {
 
 		public static string OutputPage() {
 			return "<div class=\"tac\">Elected Democrats that represent Portsmouth, New Hampshire.<h2>Senator Jeanne Shaheen</h2><a href=\"http://www.shaheen.senate.gov/\" target=\"_blank\">Official Website</a><br /><a href=\"https://www.facebook.com/SenatorShaheen\" target=\"_blank\">Facebook</a><br /><a href=\"https://twitter.com/senatorshaheen\" target=\"_blank\">Twitter</a>" +
@@ -11,15 +11,15 @@ namespace portsmouth_democrats.Pages {
 				"Debbie DiFranco (Ward 3)<br /><a href=\"http://www.gencourt.state.nh.us/house/members/member.aspx?member=377290\" target=\"_blank\">Official Website</a><br /><br />Gerry Ward (Ward 4)<br /><a href=\"http://www.gencourt.state.nh.us/house/members/member.aspx?member=377188\" target=\"_blank\">Official Website</a><br /><br />" +
 				"Pamela Gordon (Ward 5)<br /><a href=\"http://www.gencourt.state.nh.us/house/members/member.aspx?member=377298\" target=\"_blank\">Official Website</a><br /><br />Jackie Cali-Pitts (Wards 1,2,4,5)<br /><a href=\"http://www.gencourt.state.nh.us/house/members/member.aspx?member=376191\" target=\"_blank\">Official Website</a>" +
 				"<h2>City Council</h2>Jack Blalock (Mayor)<br /><a href=\"http://cityofportsmouth.com/citycouncil/index-contact-blalock.htm\" target=\"_blank\">Official Website</a><br /><br />Jim Splaine (Assistant Mayor)<br /><a href=\"http://cityofportsmouth.com/citycouncil/index-contact-splaine.htm\" target=\"_blank\">Official Website</a><br /><br />Nancy Pearson<br /><a href=\"http://cityofportsmouth.com/citycouncil/index-contact-pearson.htm\" target=\"_blank\">Official Website</a><br /><br />Eric Spear<br /><a href=\"http://cityofportsmouth.com/citycouncil/index-contact-spear.htm\" target=\"_blank\">Official Website</a><br /><br />Josh Denton<br /><a href=\"http://cityofportsmouth.com/citycouncil/index-contact-denton.htm\" target=\"_blank\">Official Website</a><h2>School Board</h2>Leslie Stevens (Chair)<br />Gary Epler<br />Thomas P. Martin<br />Ann M.Walker</div>";
-		}
+        }
 
-		public override Func<string> Content {
-			get {
-				return OutputPage;
-			}
-		}
+        public override string Content {
+            get {
+                return OutputPage();
+            }
+        }
 
-		public override string Description {
+        public override string Description {
 			get {
 				return "Elected Democrats that represent Portsmouth, New Hampshire.";
 			}
