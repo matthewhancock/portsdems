@@ -4,7 +4,7 @@ namespace portsmouth_democrats.Pages {
 	public class Home : Common.Site.Page {
 		
 		public static string OutputPage() {
-			return "<div class=\"tac\"><h2>Upcoming Events</h2><h3>Convention Watch Party</h3><div class=\"b\">Thursday, July 28, 2016<br />6:30PM<br />Portsmouth Democrats Campaign Office<br /><a href=\"https://binged.it/2ahNSHP\" target=\"_blank\">125 Brewery Lane</a></div><br />Join Hillary supporters in your area as we watch history be made in Philadelphia when Hillary Clinton officially becomes the Democratic nominee for President of the United States.<br /><br />We'll be having alcohol and alcohol-free beverages. Please bring your favorite dips or hors d'oeurves. We will also be playing some political trivia. Everyone is welcome to join us!<h3>Portsmouth Democrats Monthly Gathering</h3><div class=\"b\">Tuesday, August 16, 2016<br />6:30PM<br />Cafe Nostimo<br /><a href=\"http://binged.it/1cFa7EC\" target=\"_blank\">72 Mirona Road</a></div><br />All Democrats are welcome. This is a social gathering with no agenda or speakers, just good food, good conversation, with good people.";
+			return "<div class=\"tac\"><h2>Upcoming Events</h2><h3>Portsmouth Democrats Monthly Gathering</h3><div class=\"b\">Tuesday, September 20, 2016<br />6:30PM<br />Cafe Nostimo<br /><a href=\"http://binged.it/1cFa7EC\" target=\"_blank\">72 Mirona Road</a></div><br />All Democrats are welcome. This is a social gathering with no agenda or speakers, just good food, good conversation, with good people.";
         }
 
         public override string Content {
