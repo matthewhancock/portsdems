@@ -45,6 +45,8 @@ namespace Common {
             app.Run(ProcessRequestAsync);
         }
 
+        public abstract Task ProcessPostAsync(HttpContext Context, string Action);
+
         public async Task ProcessRequestAsync(HttpContext Context) {
             var rq = Context.Request;
             var rs = Context.Response;
@@ -54,7 +56,7 @@ namespace Common {
 
             if (rq.Method == "POST") {
                 if (pathc == 1) {
-                    //await Handlers.Post.ProcessRequestAsync(Context, path[0]);
+                    await ProcessPostAsync(Context, path[0]);
                 }
             } else {
                 if (pathc > 0) {
