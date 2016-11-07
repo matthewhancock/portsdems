@@ -35,7 +35,8 @@ font-size:24px;
 margin:.3em
 }
 
-
+.f{display:-webkit-flex;display:flex}
+.f1{-webkit-flex:1;flex:1}
 
 
 #c {
