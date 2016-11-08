@@ -196,3 +196,4 @@ src/portsdems/project.lock.json
 src/portsdems/wwwroot/.empty.txt
 .vs/config/applicationhost.config
 .vs/config/applicationhost.config
+*.ps1
